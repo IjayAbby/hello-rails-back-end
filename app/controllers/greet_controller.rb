@@ -1,6 +1,5 @@
-class MainController < ApplicationController
+class GreetController < ApplicationController
     def index
-      render json: 'Welcome to Nigeria, the Gaint of Africa'
-    end
-  end
-  
+        render json: 'Welcome to Africa.'
+      end
+end
